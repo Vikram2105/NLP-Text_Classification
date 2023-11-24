@@ -262,20 +262,19 @@ def text_normalizer(text):
 # print("Input: {}".format(text))
 # print("Output: {}".format(text_normalizer(text)))
 
-# Commented out IPython magic to ensure Python compatibility.
-# %%time
+
 # # Implementing text normalization
-# data_train_norm, data_val_norm, data_test_norm = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
-# 
-# data_train_norm['normalized description'] = data_train['description'].apply(text_normalizer)
-# data_val_norm['normalized description'] = data_val['description'].apply(text_normalizer)
-# data_test_norm['normalized description'] = data_test['description'].apply(text_normalizer)
-# 
-# data_train_norm['label'] = data_train['label']
-# data_val_norm['label'] = data_val['label']
-# data_test_norm['label'] = data_test['label']
-# 
-# data_train_norm
+data_train_norm, data_val_norm, data_test_norm = pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+
+data_train_norm['normalized description'] = data_train['description'].apply(text_normalizer)
+data_val_norm['normalized description'] = data_val['description'].apply(text_normalizer)
+data_test_norm['normalized description'] = data_test['description'].apply(text_normalizer)
+
+data_train_norm['label'] = data_train['label']
+data_val_norm['label'] = data_val['label']
+data_test_norm['label'] = data_test['label']
+
+data_train_norm
 
 """# Text Vectorization"""
 
