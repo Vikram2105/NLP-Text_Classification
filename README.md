@@ -1,7 +1,6 @@
-# Natural Language Processing
-# E-commerce Text Classification
+## Natural Language Processing: E-commerce Text Classification
 
-# Text Classification
+### Text Classification
 Text classification is a widely used natural language processing task in different business problems. Given a statement or document, the task involves assigning to it an appropriate category from a pre-defined set of categories. The dataset of choice determines the set of categories. Text classification has applications in emotion classification, news classification, spam email detection, auto-tagging of customer queries etc.
 
 In the present problem, the statements are the product descriptions and the categories are Electronics, Household, Books and Clothing & Accessories.
